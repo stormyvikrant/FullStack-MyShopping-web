@@ -1,0 +1,59 @@
+main{
+    min-height: 80vh;
+}
+
+h3{
+    padding: 1rem 0;
+}
+
+h1{
+    font-size: 1.8rem;
+    padding:  1rem 0;
+}
+
+h1{
+    font-size: 1.4rem;
+    padding: 0.5 rem;
+}
+
+
+
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h6 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h6 {
+    font-size: 1.5vw;
+  }
+}
+
+.rating span{
+    margin: 0.1 rem;
+}
+
+
+/* https://git.heroku.com/myshopreactproject.git */

@@ -1,0 +1,40 @@
+{
+  "name": "proshop-ecommerce-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix frontend",
+    "data:import": "node Seeder",
+    "data:destroy": "node Seeder -d"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohak-Tripathi/E-Commerce-Project.git"
+  },
+  "author": "Mohak-Tripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohak-Tripathi/E-Commerce-Project/issues"
+  },
+  "homepage": "https://github.com/Mohak-Tripathi/E-Commerce-Project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  }
+}
