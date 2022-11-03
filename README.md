@@ -1,68 +1,54 @@
-# FullStack-MyShopping-web
-# Getting Started with Create React App
+# FullStack-MyShopping-web Project
+MyShopping  is an E-Commerce website which is the one stop shop for all electronics products. This is an individual project with MERN as a techstack.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Screenshot (64)](https://user-images.githubusercontent.com/93336602/176585597-9af8693a-4972-484d-b7fc-d793b8ae19d3.png)
 
 
-### Making a Progressive Web App
+![Screenshot (65)](https://user-images.githubusercontent.com/93336602/176585870-3a27012c-d53f-404b-b68c-cc563c019557.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+![Screenshot (66)](https://user-images.githubusercontent.com/93336602/176585902-5303e18b-579a-4a45-b6b0-949a7bb81f5a.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+![Screenshot (67)](https://user-images.githubusercontent.com/93336602/176585929-225d47bc-a21d-4b15-93c1-7ba34ce66f35.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+![Screenshot (68)](https://user-images.githubusercontent.com/93336602/176585966-0ab2ec03-d89c-447a-b96e-0deb05c9ddcb.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+![Screenshot (69)](https://user-images.githubusercontent.com/93336602/176586022-c75035a2-c006-486e-aaeb-f388614fdef7.png)
+
+
+![Screenshot (70)](https://user-images.githubusercontent.com/93336602/176586077-ecb20fab-c9ac-4e3b-9ba5-d994f44cf74a.png)
+
+
+![Screenshot (71)](https://user-images.githubusercontent.com/93336602/176586106-bbdfd297-277f-494f-9b59-ef49ca28f783.png)
+
+# Admin Login 
+Email - admin@example.com
+Password - 123456admin
+
+# MYSHOPPING E-Commerce-Project Features
+Some of the features are as follows-
+
+1. Full featured shopping cart
+2. Dynamic Routing
+3. Product reviews and ratings
+4. Top products carousel
+5. Product pagination
+6. Product search feature
+7. User profile with orders
+8. Admin product management
+9. Admin user management
+10. Admin Order details page
+11. Mark orders as delivered option
+12. Checkout process (shipping, payment method, etc)
+13. PayPal / credit card integration
+
+# Important Note
+ES Modules in Node
+I used ECMAScript Modules in the backend in this project. Be sure to have at least Node v14.6+ or you will need to add the "--experimental-modules" flag.
+
+Also, when importing a file (not a package), be sure to add .js at the end or you will get a "module not found" error
+
+You can also install and setup Babel if you would like.
